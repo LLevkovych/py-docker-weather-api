@@ -6,7 +6,7 @@ load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
 URL = "http://api.weatherapi.com/v1/current.json"
-FILTERING = input("Enter city name:\n")
+FILTERING = "Kyiv"
 
 
 def get_weather() -> None:
